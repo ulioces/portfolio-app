@@ -1,6 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ParticlesBackground from './ParticlesBackground.vue'
+</script>
 <template>
   <div class="section">
+    <ParticlesBackground />
     <div class="my-photo"></div>
     <span class="hi"> </span>
     <span class="description"> </span>
@@ -9,9 +12,9 @@
   </div>
 </template>
 <style scoped>
-section {
+.section {
   height: 100dvh;
-  width: 100dvw;
-  background-color: red;
+  width: 100%;
+  background-color: #272b33;
 }
 </style>

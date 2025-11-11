@@ -56,9 +56,8 @@ watch(route.path as any, (newPath) => {
 
 <style scoped>
 section {
-  height: 100vh;
-  width: 100%;
-  border: 1px solid red;
   scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
 }
 </style>
