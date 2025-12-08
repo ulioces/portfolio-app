@@ -10,6 +10,7 @@
     id="tsparticles"
     @particles-loaded="particlesLoaded"
     :options="{
+      fullScreen: false,
       /*background: {
         color: {
           value: '#0d47a1',
@@ -92,3 +93,12 @@
     }"
   />
 </template>
+<style scoped>
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+</style>

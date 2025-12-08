@@ -59,5 +59,6 @@ section {
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 </style>
